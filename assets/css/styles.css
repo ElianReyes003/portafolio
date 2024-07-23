@@ -358,7 +358,6 @@ button:hover {
 /* Left & Right Post */
 
 .right-image-post {
-    margin-top: 60px;
     padding-top: 60px;
     border-top: 2px solid rgba(250, 250, 250, 0.1);
 }
@@ -396,6 +395,15 @@ button:hover {
     padding: 50px;
     background-color: rgba(250, 250, 250, 0.1);
     transition: all 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service-img{
+    width: 3rem;
+    height: 3rem;
 }
 
 .service-item h4 {
@@ -422,7 +430,7 @@ button:hover {
     width: 70px;
     height: 70px;
     display: inline-block;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     background-size: cover;
     background-repeat: no-repeat;
     transition: all 0.5s;
@@ -809,5 +817,37 @@ section.contact-me {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+}
 
+.icon-redes {
+    font-size: 30px;
+    transition: transform 0.3s ease; 
+}
+
+.icon-redes:hover {
+    transform: translateY(-4px);
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+@keyframes fade {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+  
+  .animacion {
+    animation: fade 2s ease-in-out infinite;
+  }
+  
+.language-selector{
+    color: white;
+    margin: 40px 0px;
 }
