@@ -532,6 +532,16 @@ section.my-work .section-heading {
     object-fit: cover;     
 }
 
+.service-item .service-icon {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
 .lazyload {
     background: #f7f7f7;
 }
