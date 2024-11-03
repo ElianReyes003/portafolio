@@ -22,7 +22,7 @@ $data = json_decode($payload);
 // Verifica que el evento sea un push a la rama principal
 if ($data->ref === 'refs/heads/main') {
     // Ruta a tu repositorio en el servidor
-    $repo_dir = '/home1/proye477/elianreyes.proyectosidgs.com';
+    $repo_dir = '/home1/proye477/elianreyes.proyectosidgs.com/portafolio';
 
     // Comando para actualizar el repositorio
     $output = shell_exec("cd {$repo_dir} && git pull origin main 2>&1");
