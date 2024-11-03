@@ -1,0 +1,27 @@
+{ 
+    "start_url": "/portafolio",
+    "short_name": "PO-ELIAN",  
+    "name": "PORTAFOLIO-ELIAN",  
+    "description": "Mi portafolio",  
+    "background_color": "#130f40",  
+    "theme_color": "#30336b",  
+    "orientation": "portrait",  
+    "display": "standalone",  
+    "icons":[  
+      {  
+        "src": "assets/images/icono1.png",  
+        "type": "image/png",  
+        "sizes": "144x144"
+      },
+      {
+        "src": "assets/images/icono2.png",  
+        "type": "image/png",  
+        "sizes": "48x48" 
+      },
+      {
+        "src": "assets/images/icono3.png",  
+        "type": "image/png",  
+        "sizes": "96x96" 
+      }
+    ] 
+  }
