@@ -874,7 +874,7 @@ section.contact-me {
 
   .modal-content {
     background-color: #fefefe;
-    margin: 10% auto;
+    margin: 3% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
@@ -929,6 +929,43 @@ section.contact-me {
     padding: 5px 10px;
     border-radius: 20px;
     font-size: 14px;
+  }
+
+  .carousel {
+      display: flex;
+      align-items: center; 
+      justify-content: center; 
+      position: relative; 
+      margin: 20px 0;
+  }
+
+  button.prev, button.next {
+      background-color: rgba(255, 255, 255, 0.8); 
+      border: none;
+      border-radius: 50%; 
+      padding: 10px; 
+      cursor: pointer;
+      font-size: 24px; 
+      transition: background-color 0.3s;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  button.prev:hover, button.next:hover {
+      background-color: rgb(145, 145, 145); 
+  }
+
+  button.prev {
+      position: absolute; 
+      left: 10px; 
+      top: 50%; 
+      transform: translateY(-50%); 
+  }
+
+  button.next {
+      position: absolute; 
+      right: 10px; 
+      top: 50%;
+      transform: translateY(-50%);
   }
 
   @media (max-width: 768px) {
