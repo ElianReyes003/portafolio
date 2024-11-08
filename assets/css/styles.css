@@ -968,6 +968,11 @@ section.contact-me {
       transform: translateY(-50%);
   }
 
+  .modalSubtitles{
+    color: #333;
+    font-size: 18px;
+  }
+
   @media (max-width: 768px) {
     .modal-content {
       width: 95%;
